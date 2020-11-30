@@ -68,6 +68,7 @@
       </div>
       <div class="col-md-6">
 
+        <!-- Skills -->
         <div class="mb-5 pb-4">
           <h2 class="section-title mb-5">Main skills</h2>
 
@@ -86,6 +87,7 @@
           </template>
         </div>
 
+        <!-- Education and certificates -->
         <div class="mb-5 pb-4">
           <h2 class="section-title mb-4">Education & Certificates</h2>
 
@@ -102,11 +104,12 @@
           </template>
         </div>
 
+        <!-- Hobbies and interests-->
         <div class="mb-5 pb-4">
           <h2 class="section-title mb-4">Hobbies and interests</h2>
           <div class="row">
             <template x-for="hobby in hobbies">
-              <div class="col-6 mb-1">
+              <div class="col-12 col-sm-6 mb-1">
                 <span x-text="hobby[0]"></span>
                 <span x-text="hobby[1]" class="ml-2"></span>
               </div>
