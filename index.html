@@ -67,48 +67,53 @@
 
       </div>
       <div class="col-md-6">
-        <h2 class="section-title mb-5">Main skills</h2>
 
-        <template x-for="(skillCategory, i) in skillCategories" :key="i">
-          <div class="skill-category mt-5">
-            <span x-text="skillCategory.name" class="skill-category__title"></span>
+        <div class="mb-5 pb-4">
+          <h2 class="section-title mb-5">Main skills</h2>
 
-            <div class="row">
-              <template x-for="(skill, j) in skillCategory.skills" :key="j">
-                <div class="col-4 skill-category__skill">
-                  <p x-text="skill.name" class="ml-3"></p>
-                </div>
-              </template>
-            </div>
-          </div>
-        </template>
+          <template x-for="(skillCategory, i) in skillCategories" :key="i">
+            <div class="skill-category mt-5">
+              <span x-text="skillCategory.name" class="skill-category__title"></span>
 
-        <div class="mt-5"></div>
-
-        <h2 class="section-title mb-5">Education & Certificates</h2>
-
-        <template x-for="(education,i) in educations" :key="i">
-          <div class="work-experience my-4 py-1">
-            <h4 class="work-experience__role" x-text="education.title"></h4>
-            <h5 class="work-experience__company" x-text="education.subtitle"></h5>
-            <div class="work-experience__info">
-              <span x-text="education.place"></span>
-            </div>
-
-            <p class="work-experience__description mt-2 mb-0" x-text="education.description"></p>
-
-          </div>
-        </template>
-
-        <h2 class="section-title mb-4">Hobbies and interests</h2>
-        <div class="row">
-          <template x-for="hobby in hobbies">
-            <div class="col-6 mb-1">
-              <span x-text="hobby[0]"></span>
-              <span x-text="hobby[1]" class="ml-2"></span>
+              <div class="row">
+                <template x-for="(skill, j) in skillCategory.skills" :key="j">
+                  <div class="col-4 skill-category__skill">
+                    <p x-text="skill.name" class="ml-3"></p>
+                  </div>
+                </template>
+              </div>
             </div>
           </template>
         </div>
+
+        <div class="mb-5 pb-4">
+          <h2 class="section-title mb-4">Education & Certificates</h2>
+
+          <template x-for="(education,i) in educations" :key="i">
+            <div class="work-experience mb-4 py-1">
+              <h4 class="work-experience__role" x-text="education.title"></h4>
+              <h5 class="work-experience__company" x-text="education.subtitle"></h5>
+              <div class="work-experience__info">
+                <span x-text="education.description"></span>
+                <span x-text="education.place"></span>
+              </div>
+
+            </div>
+          </template>
+        </div>
+
+        <div class="mb-5 pb-4">
+          <h2 class="section-title mb-4">Hobbies and interests</h2>
+          <div class="row">
+            <template x-for="hobby in hobbies">
+              <div class="col-6 mb-1">
+                <span x-text="hobby[0]"></span>
+                <span x-text="hobby[1]" class="ml-2"></span>
+              </div>
+            </template>
+          </div>
+        </div>
+
       </div>
     </div>
 

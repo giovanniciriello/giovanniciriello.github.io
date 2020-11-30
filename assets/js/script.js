@@ -123,24 +123,25 @@ const educations = [
   {
     title: '🎓 Computer Science Engineering Master Degree',
     subtitle: 'ICT engineering business and innovation',
-    place: 'Politecnico di Milano, Italy'
+    place: 'Politecnico di Milano, Italy',
+    description: 'In progress'
   },
     {
     title: '🎓 Bechelor\'s Degree',
     subtitle: 'Informatics and Automation Engineering',
     place: 'Politecnico di Bari, Italy',
-    description: 'Graduated with 98/110'
+    description: '98/110'
   },
   {
     title: '📚 High school Diploma',
     subtitle: 'Administration, finance and Marketing',
-    place: 'Istituto Tecnico Colamonico, Acquaviva, Italy',
-    description: 'Graduated with 100/100 with honors'
+    place: 'Colamonico Technical Inst., Acquaviva, Italy',
+    description: '100/100 + honors'
   },
   {
     title: '🇬🇧 English certification | B2 advanced',
     subtitle: 'TOEIC English Certificate',
-    description: 'Passed with result 940/990'
+    description: '940/990'
   },
   {
     title: '👨🏻‍💻 Oracle Certified Associate JAVA SE 5/SE 6'
