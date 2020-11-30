@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+body {
+  background-color: #37474F;
+}
+
+h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4 {
+  font-family: 'Roboto Slab', serif;
+  color: #FFFFFF;
+}
+
+.section-title {
+  color: #FF8A65;
+}
+
+.work-experience__company {
+  font-weight: 200;
+  color: #E0E0E0;
+}
+
+.work-experience__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work-experience__info span {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #FF8A65;
+}
+
+.work-experience__techs .badge {
+  background-color: #FF8A65 !important;
+  color: #37474F;
+}
+
+.skill-category {
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.skill-category__title {
+  background-color: #37474F;
+  position: relative;
+  padding: 5px;
+  top: -12px;
+  left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

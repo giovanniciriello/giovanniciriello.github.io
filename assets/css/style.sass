@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap')
+
+$primary : #FF8A65
+$dark: #37474F
+
+$white1: #FFFFFF
+$white2: #E0E0E0
+
+body
+  background-color: $dark
+
+h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4
+  font-family: 'Roboto Slab', serif
+  color: $white1
+
+.section-title
+  color: $primary
+
+.work-experience
+
+  &__role
+
+  &__company
+    font-weight: 200
+    color: $white2
+
+  &__info
+    display: flex
+    justify-content: space-between
+
+    span
+      font-family: 'Roboto', sans-serif
+      font-style: italic
+      color: $primary
+
+  &__techs
+    .badge
+      background-color: $primary !important
+      color: $dark
+
+.skill-category
+  border: solid 1px
+  border-radius: 10px
+
+  &__title
+    background-color: $dark
+    position: relative
+    padding: 5px
+    top: -12px
+    left: 20px
+    font-family: 'Roboto', sans-serif
+    font-style: italic
+    text-transform: uppercase
+
+  &__skill
