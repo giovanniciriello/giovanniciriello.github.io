@@ -95,7 +95,7 @@ const skillCategories = [
       { name : 'HTML', icon: 'html.svg' },
       { name : 'CSS', icon: 'css.svg' },
       { name : 'Javascript', icon: 'javascript.svg' },
-      { name : 'Sass', icon: 'Sass.svg' },
+      { name : 'Sass', icon: 'sass.svg' },
       { name : 'Typescript', icon: 'typescript.svg' },
       { name : 'Angular', icon: 'angular.svg' },
       { name : 'Electron', icon: 'electron.svg' },
