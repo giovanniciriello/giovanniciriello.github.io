@@ -2,4 +2,4 @@
 
 My personal page
 
-👉 [https://giovanniciriello.github.io](giovanniciriello.github.io)
+👉 [giovanniciriello.github.io](https://giovanniciriello.github.io)
