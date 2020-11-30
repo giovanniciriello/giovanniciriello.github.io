@@ -34,7 +34,7 @@
           I'm a full Stack Web & Mobile Developer.<br>
           Hard coder, productivity nerd, enthusiast and curious.
         </div>
-        <div class="col-md-6 text-left text-md-right">
+        <div class="col-md-6 text-left text-md-right my-4 my-md-2">
           <p class="contact-info">
             <a target="_blank" href="mailto:giovanni.ciriello.5@gmail.com">giovanni.ciriello.5@gmail.com</a>
             <span class="ml-1">📧</span>
@@ -93,13 +93,13 @@
           <h2 class="section-title mb-5">Main skills</h2>
 
           <template x-for="(skillCategory, i) in skillCategories" :key="i">
-            <div class="skill-category mt-5">
+            <div class="skill-category mt-5 pb-3">
               <span x-text="skillCategory.name" class="skill-category__title"></span>
 
               <div class="row">
                 <template x-for="(skill, j) in skillCategory.skills" :key="j">
-                  <div class="col-4 mb-2 skill-category__skill d-flex align-items-center">
-                    <div class="skill-category__skill__icon mx-3">
+                  <div class="col-6 col-lg-4 mb-2 skill-category__skill d-flex align-items-center">
+                    <div class="skill-category__skill__icon ml-3 mr-2">
                       <img :src="'./assets/img/dev-icons/'+skill.icon" alt="" width="20px">
                     </div>
                     <p x-text="skill.name" class="mb-0"></p>
@@ -132,7 +132,7 @@
           <h2 class="section-title mb-4">Hobbies and interests</h2>
           <div class="row">
             <template x-for="hobby in hobbies">
-              <div class="col-12 col-sm-6 mb-1">
+              <div class="col-12 col-lg-6 mb-1">
                 <span x-text="hobby[0]"></span>
                 <span x-text="hobby[1]" class="ml-2"></span>
               </div>
