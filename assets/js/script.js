@@ -82,39 +82,38 @@ const skillCategories = [
   {
     name: 'Backend',
     skills : [
-      { name: 'PHP', icon: 'PHP.svg' },
-      { name: 'Laravel', icon: 'Laravel.svg' },
-      { name: 'Python', icon: 'Python.svg' },
-      { name: 'Django', icon: 'Django.svg' },
-      { name: 'MySQL', icon: 'MySQL.svg' },
-      { name: 'MongoDB', icon: 'MongoDB.svg' }
+      { name: 'PHP', icon: 'php.svg' },
+      { name: 'Laravel', icon: 'laravel.svg' },
+      { name: 'Python', icon: 'python.svg' },
+      { name: 'Django', icon: 'django.svg' },
+      { name: 'MySQL', icon: 'mysql.svg' }
     ]
   },
   {
     name: 'Frontend',
     skills : [
-      { name : 'HTML', icon: 'HTML.svg' },
-      { name : 'CSS', icon: 'CSS.svg' },
+      { name : 'HTML', icon: 'html.svg' },
+      { name : 'CSS', icon: 'css.svg' },
+      { name : 'Javascript', icon: 'javascript.svg' },
       { name : 'Sass', icon: 'Sass.svg' },
-      { name : 'Javascript', icon: 'Javascript.svg' },
-      { name : 'Typescript', icon: 'Typescript.svg' },
-      { name : 'Angular', icon: 'Angular.svg' },
-      { name : 'Electron', icon: 'Electron.svg' },
-      { name : 'Ionic', icon: 'Ionic.svg' },
-      { name : 'VueJS', icon: 'VueJS.svg' },
-      { name : 'Bootstrap', icon: 'Bootstrap.svg' },
-      { name : 'TailwindCSS', icon: 'TailwindCSS.svg' },
+      { name : 'Typescript', icon: 'typescript.svg' },
+      { name : 'Angular', icon: 'angular.svg' },
+      { name : 'Electron', icon: 'electron.svg' },
+      { name : 'Ionic', icon: 'ionic.svg' },
+      { name : 'VueJS', icon: 'vuejs.svg' },
+      { name : 'Bootstrap', icon: 'bootstrap.svg' },
+      { name : 'Tailwind CSS', icon: 'tailwindcss.svg' },
     ]
   },
     {
     name: 'Dev Tools',
     skills : [
-      { name : 'Git', icon: 'Git'},
-      { name : 'VSCode', icon: 'VSCode'},
-      { name : 'Jetbrains IDEs', icon: 'jetbrains.svg'},
-      { name : 'Jira', icon: 'Jira'},
-      { name : 'Firebase', icon: 'Firebase'},
-      { name : 'Docker', icon: 'Docker'},
+      { name : 'Git', icon: 'git.svg'},
+      { name : 'VSCode', icon: 'vscode.svg'},
+      { name : 'Jetbrains', icon: 'phpstorm.svg'},
+      { name : 'Jira', icon: 'jira.svg'},
+      { name : 'Firebase', icon: 'firebase.svg'},
+      { name : 'Docker', icon: 'docker.svg'},
     ]
   },
 ]
@@ -152,7 +151,7 @@ const hobbies = [
   ['💰','Personal finance'],
   ['📈','Analytics & statistics'],
   ['🤖','Conversational chatbots'],
-  ['📱','Technology and innovation'],
+  ['🖥','Technology and innovation'],
   ['👨‍🍳','Cooking'],
   ['🏀','Basket'],
   ['🎾','Tennis'],

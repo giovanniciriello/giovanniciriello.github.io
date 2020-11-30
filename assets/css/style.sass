@@ -14,8 +14,18 @@ h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4
   font-family: 'Roboto Slab', serif
   color: $white1
 
+a
+  // text-decoration: underline
+  &:hover
+    color: $primary
+    text-decoration: none
+
 .section-title
   color: $primary
+
+.contact-info
+  margin-top: 0
+  margin-bottom: 0
 
 .work-experience
 
@@ -54,3 +64,5 @@ h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4
     text-transform: uppercase
 
   &__skill
+    &__icon
+      width: 25px
