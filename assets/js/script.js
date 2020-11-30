@@ -126,7 +126,7 @@ const educations = [
     description: 'In progress'
   },
     {
-    title: '🎓 Bechelor\'s Degree',
+    title: '🎓 Bachelor\'s Degree',
     subtitle: 'Informatics and Automation Engineering',
     place: 'Politecnico di Bari, Italy',
     description: '98/110'
