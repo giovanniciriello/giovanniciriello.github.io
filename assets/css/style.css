@@ -4,9 +4,35 @@ body {
   background-color: #37474F;
 }
 
-h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4 {
+@media print {
+  body {
+    background-color: #FFFFFF;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, div, a, button, small, span {
   font-family: 'Roboto Slab', serif;
   color: #FFFFFF;
+}
+
+@media print {
+  h1, h2, h3, h4, h5, h6, p, div, a, button, small, span {
+    color: #000000;
+  }
+}
+
+h1.name {
+  font-size: 2.8rem;
+}
+
+.text-secondary {
+  color: #E0E0E0 !important;
+}
+
+@media print {
+  .text-secondary {
+    color: #0f0f0f !important;
+  }
 }
 
 a:hover {
@@ -16,6 +42,12 @@ a:hover {
 
 .section-title {
   color: #FF8A65;
+}
+
+@media print {
+  .section-title {
+    color: #FF5722;
+  }
 }
 
 .contact-info {
@@ -31,6 +63,12 @@ a:hover {
   font-size: 20px;
   font-weight: 200;
   color: #E0E0E0;
+}
+
+@media print {
+  .work-experience__company {
+    color: #0f0f0f;
+  }
 }
 
 .work-experience__info {
@@ -53,9 +91,23 @@ a:hover {
   color: #37474F;
 }
 
+@media print {
+  .work-experience__techs .badge {
+    background-color: #FFFFFF !important;
+    color: #37474F !important;
+    border-color: #37474F !important;
+  }
+}
+
 .skill-category {
-  border: solid 1px;
+  border: solid 1px #FFFFFF;
   border-radius: 10px;
+}
+
+@media print {
+  .skill-category {
+    border-color: #37474F;
+  }
 }
 
 .skill-category__title {
@@ -67,6 +119,12 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   text-transform: uppercase;
+}
+
+@media print {
+  .skill-category__title {
+    background-color: #FFFFFF !important;
+  }
 }
 
 .skill-category__skill__icon {

@@ -2,17 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap')
 
 $primary : #FF8A65
+$primary-darker: #FF5722
 $dark: #37474F
-
+$black: #000000
 $white1: #FFFFFF
 $white2: #E0E0E0
+$secondary: #0f0f0f
 
 body
   background-color: $dark
+  @media print
+    background-color: $white1
 
-h1, h2, h3, h4, h5, h5, p, div, a, button, small, span, .display-4
+h1, h2, h3, h4, h5, h6, p, div, a, button, small, span
   font-family: 'Roboto Slab', serif
   color: $white1
+  @media print
+    color: #000000
+
+h1.name
+  font-size: 2.8rem
+
+.text-secondary
+  color: $white2 !important
+  @media print
+    color: $secondary !important
 
 a
   // text-decoration: underline
@@ -22,6 +36,8 @@ a
 
 .section-title
   color: $primary
+  @media print
+    color: $primary-darker
 
 .contact-info
   margin-top: 0
@@ -36,6 +52,8 @@ a
     font-size: 20px
     font-weight: 200
     color: $white2
+    @media print
+      color: $secondary
 
   &__company
 
@@ -52,10 +70,17 @@ a
     .badge
       background-color: $primary !important
       color: $dark
+      @media print
+        background-color: $white1 !important
+        color: $dark !important
+        border-color: $dark !important
 
 .skill-category
-  border: solid 1px
+  border: solid 1px $white1
   border-radius: 10px
+
+  @media print
+    border-color: $dark
 
   &__title
     background-color: $dark
@@ -66,6 +91,8 @@ a
     font-family: 'Roboto', sans-serif
     font-style: italic
     text-transform: uppercase
+    @media print
+      background-color: $white1 !important
 
   &__skill
     &__icon
