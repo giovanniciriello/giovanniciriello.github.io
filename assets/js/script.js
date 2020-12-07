@@ -71,7 +71,7 @@ const workExperiences = [
     place: 'Rome, Italy',
     works: [
       {
-        description: 'Admap is a startup I co-founded in 2015. It is an online platform that allows businesses to search and buy physical advertising spaces as posters, billboards selecting them from a special national map. In January 2017 Admap was acquired by a private company based in Rome.',
+        description: 'Admap is a startup I co-founded in 2015. It is an online platform that allows businesses to search available physical advertising spaces (like posters, billboards) on a map and to buy them online. In January 2017 Admap was acquired by a private company based in Rome.',
         techs: ['Laravel', 'Python', 'Bootstrap']
       },
     ],
