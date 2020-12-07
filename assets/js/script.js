@@ -45,14 +45,14 @@ const workExperiences = [
     place: 'Bari, Italy (Remote)',
     works: [
       {
-        description: 'Design and development of the web app for the management of short-term products. It’s currently running in the kitchens of burger king branch in Bari, Italy.',
+        description: 'Web app design and development for the management of short-term products. It’s currently running in the kitchens of burger king branch in Bari, Italy.',
         techs: ['Laravel', 'VueJS', 'Bootstrap']
       },
     ],
   },
 
   {
-    role: 'Freelance Laravel Master Coach',
+    role: 'Laravel Master Coach',
     company: 'iComm Lab',
     daterange: '09/2018 - 10/2018',
     place: 'Acquaviva d. Fonti, Italy',
@@ -67,11 +67,11 @@ const workExperiences = [
   {
     role: 'Founder & Full-Stack developer',
     company: 'Admap',
-    daterange: '01/2016 - 01/2017',
+    daterange: '01/2015 - 01/2017',
     place: 'Rome, Italy',
     works: [
       {
-        description: 'Admap is a startup I founded in 2015. It is a platform that allows small and medium enterprises to create advertising campaigns (posters, billboards) through an online process and by consulting a special national map. The startup received rich funding from a company in Rome in February 2016 and was sold in January 2017.',
+        description: 'Admap is a startup I co-founded in 2015. It is an online platform that allows businesses to search and buy physical advertising spaces as posters, billboards selecting them from a special national map. In January 2017 Admap was acquired by a private company based in Rome.',
         techs: ['Laravel', 'Python', 'Bootstrap']
       },
     ],
