@@ -36,12 +36,12 @@ h1.name {
 }
 
 a:hover {
-  color: #FF8A65;
+  color: #FF7452;
   text-decoration: none;
 }
 
 .section-title {
-  color: #FF8A65;
+  color: #FF7452;
   font-weight: 700;
 }
 
@@ -85,11 +85,11 @@ a:hover {
 .work-experience__info span {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-  color: #FF8A65;
+  color: #FF7452;
 }
 
 .work-experience__techs .badge {
-  background-color: #FF8A65 !important;
+  background-color: #FF7452 !important;
   color: #37474F;
 }
 
