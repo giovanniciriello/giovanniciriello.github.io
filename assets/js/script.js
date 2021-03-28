@@ -49,7 +49,7 @@ const workExperiences = [
     works: [
       {
         description:
-          'Web app design and development for the management of short-term products. It’s currently running in the kitchens of burger king branch in Bari, Italy.',
+          'Web app design and development of a management system for perishable ingredients, which is as of now still in use by the Burger King’s branch in Bari, Italy.',
         techs: ['Laravel', 'VueJS', 'Bootstrap'],
       },
     ],
